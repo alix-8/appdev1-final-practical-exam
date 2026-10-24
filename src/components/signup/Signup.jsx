@@ -67,7 +67,7 @@ function Signup() {
               </button>
             </div>
             <p className={styles.accountPrompt}>
-              Have an account? <a href="#signin">Sign In</a>
+              Have an account? <a href="/login">Sign In</a>
             </p>
           </div>
         </div>
