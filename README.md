@@ -1,16 +1,3 @@
-# React + Vite
+## FINAL EXAMINATION REFLECTION
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Habang ginagawa yung practical exam, I realized na mas nag-eenjoy ako sa pag-design kesa sa backend development. This type of activity always excites me. I learned how to use the shadcn, and kung paano sya ini-install. Sa lessons ko lang una napanood kung paano yon ginagawa pero ngayon ko lang sya na-practice sa sarili ko. I'll definitely use shadcn in my next projects, and I'll explore similar tools or libraries. Doing this practical exam takes me back to our 2nd year lessons in WAD. Napansin ko rin na nasasanay na ako sa CLI commands (especially sa git bash) kung ico-compare sa una kong skills sa paggamit nito. Marami na po akong natutunan since nag-start ang lessons sa App Dev 1, I will try to explore pa po to learn new things and will always look forward to the new lessons that are prepared to us (especially if about sa designs :D).
