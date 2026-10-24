@@ -60,7 +60,7 @@ function Login() {
               </button>
             </div>
             <p className={styles.accountPrompt}>
-              Have an account? <a href="#signin">Sign In</a>
+               Don’t have an account? <a href="/signup">Sign Up</a>
             </p>
           </div>
         </div>
@@ -73,3 +73,4 @@ function Login() {
 }
 
 export default Login
+
