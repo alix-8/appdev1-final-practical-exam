@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 .page {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -12,8 +14,21 @@
   min-width: 0;
 }
 
-.leftSection {
-  /* Intentionally empty at this stage of the exam. */
+.leftContent {
+  width: 68%;
+  max-width: 420px;
+  margin-inline: auto;
+  padding-top: 20vh;
+}
+
+.title {
+  margin: 0;
+  color: #090909;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: 0;
 }
 
 .rightSection {
@@ -36,15 +51,17 @@
     grid-template-columns: 1fr;
   }
 
-  .leftSection {
-    display: none;
+  .leftContent {
+    width: min(80%, 420px);
+    padding-top: 10vh;
   }
 
   .rightSection {
-    min-height: 100vh;
+    min-height: 55vh;
   }
 
   .blossom {
-    height: 100vh;
+    height: 55vh;
   }
 }
+
