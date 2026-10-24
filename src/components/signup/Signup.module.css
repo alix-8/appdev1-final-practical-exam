@@ -114,6 +114,73 @@
   background: #29491a;
 }
 
+.bottomSection {
+  margin-top: 36px;
+}
+
+.divider {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 8px;
+  color: #111;
+}
+
+.divider > span:first-child,
+.divider > span:last-child {
+  height: 1px;
+  background: #ededed;
+}
+
+.dividerText {
+  font-size: 8px;
+  line-height: 1;
+}
+
+.socialButtons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 38px;
+}
+
+.socialButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-width: 0;
+  height: 24px;
+  padding: 0 5px;
+  border: 1px solid #dedede;
+  border-radius: 7px;
+  background: #fff;
+  color: #111;
+  cursor: pointer;
+  font: 500 8px 'Poppins', sans-serif;
+  white-space: nowrap;
+}
+
+.socialButton img {
+  width: 12px;
+  height: 12px;
+  object-fit: contain;
+}
+
+.accountPrompt {
+  margin: 14px 0 0;
+  color: #111;
+  font-size: 9px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.accountPrompt a {
+  margin-left: 3px;
+  color: #0757d5;
+  text-decoration: none;
+}
+
 .rightSection {
   display: flex;
   align-items: center;
@@ -143,6 +210,14 @@
     margin-top: 28px;
   }
 
+  .bottomSection {
+    margin-top: 28px;
+  }
+
+  .socialButtons {
+    margin-top: 26px;
+  }
+
   .rightSection {
     min-height: 55vh;
   }
@@ -151,4 +226,3 @@
     height: 55vh;
   }
 }
-
