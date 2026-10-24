@@ -2,6 +2,7 @@ import styles from './Login.module.css'
 import appleLogo from '../../assets/icons-apple-logo.svg'
 import googleLogo from '../../assets/icons-google-logo.svg'
 import blossomFlower from '../../assets/blossom-flower.svg'
+import { Input } from '@/components/ui/input'
 
 function Login() {
   return (
@@ -13,7 +14,7 @@ function Login() {
           <form className={styles.form}>
             <div className={styles.field}>
               <label className={styles.label} htmlFor="login-email">Email address</label>
-              <input
+              <Input
                 className={styles.input}
                 id="login-email"
                 name="email"
@@ -27,7 +28,7 @@ function Login() {
                 <label className={styles.label} htmlFor="login-password">Password</label>
                 <a className={styles.forgotPassword} href="#forgot-password">forgot password</a>
               </div>
-              <input
+              <Input
                 className={styles.input}
                 id="login-password"
                 name="password"
@@ -60,7 +61,7 @@ function Login() {
               </button>
             </div>
             <p className={styles.accountPrompt}>
-               Don’t have an account? <a href="/signup">Sign Up</a>
+              Don’t have an account? <a href="/signup">Sign Up</a>
             </p>
           </div>
         </div>
@@ -73,4 +74,3 @@ function Login() {
 }
 
 export default Login
-
