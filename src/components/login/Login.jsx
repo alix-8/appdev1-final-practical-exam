@@ -12,21 +12,10 @@ function Login() {
           <p className={styles.subtitle}>Enter your Credentials to access your account</p>
           <form className={styles.form}>
             <div className={styles.field}>
-              <label className={styles.label} htmlFor="signup-name">Name</label>
+              <label className={styles.label} htmlFor="login-email">Email address</label>
               <input
                 className={styles.input}
-                id="signup-name"
-                name="name"
-                type="text"
-                placeholder="Enter your name"
-                autoComplete="name"
-              />
-            </div>
-            <div className={styles.field}>
-              <label className={styles.label} htmlFor="signup-email">Email address</label>
-              <input
-                className={styles.input}
-                id="signup-email"
+                id="login-email"
                 name="email"
                 type="email"
                 placeholder="Enter your email"
@@ -34,21 +23,24 @@ function Login() {
               />
             </div>
             <div className={styles.field}>
-              <label className={styles.label} htmlFor="signup-password">Password</label>
+              <div className={styles.passwordLabelRow}>
+                <label className={styles.label} htmlFor="login-password">Password</label>
+                <a className={styles.forgotPassword} href="#forgot-password">forgot password</a>
+              </div>
               <input
                 className={styles.input}
-                id="signup-password"
+                id="login-password"
                 name="password"
                 type="password"
                 placeholder="Enter your password"
-                autoComplete="new-password"
+                autoComplete="current-password"
               />
             </div>
             <label className={styles.terms}>
-              <input className={styles.checkbox} type="checkbox" name="terms" />
-              <span>I agree to the <a href="#terms">terms &amp; policy</a></span>
+              <input className={styles.checkbox} type="checkbox" name="remember" />
+              <span>Remember for 30 days</span>
             </label>
-            <button className={styles.submit} type="submit">Signup</button>
+            <button className={styles.submit} type="submit">Login</button>
           </form>
 
           <div className={styles.bottomSection}>
@@ -81,4 +73,3 @@ function Login() {
 }
 
 export default Login
-
